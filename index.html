@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cup Journal</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+      background: #faf8f5;
+      color: #2c2c2c;
+      line-height: 1.8;
+      padding: 40px 20px;
+    }
+    .container { max-width: 680px; margin: 0 auto; }
+    header { margin-bottom: 56px; text-align: center; }
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #3b2a1a;
+      margin-bottom: 12px;
+    }
+    header p { font-size: 0.95rem; color: #6b5744; }
+    .nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .nav-list a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #fff;
+      border: 1px solid #e0d4c3;
+      border-radius: 12px;
+      padding: 20px 24px;
+      color: #3b2a1a;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: box-shadow 0.15s;
+    }
+    .nav-list a:hover { box-shadow: 0 4px 12px rgba(176,125,74,0.15); }
+    .nav-list a span { color: #b07d4a; font-size: 1.2rem; }
+    footer {
+      margin-top: 64px;
+      font-size: 0.8rem;
+      color: #9e8c7a;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Cup Journal</h1>
+      <p>自宅でのコーヒー抽出をていねいに記録するアプリ</p>
+    </header>
+
+    <ul class="nav-list">
+      <li>
+        <a href="support.html">
+          サポート
+          <span>›</span>
+        </a>
+      </li>
+      <li>
+        <a href="privacy.html">
+          プライバシーポリシー
+          <span>›</span>
+        </a>
+      </li>
+    </ul>
+
+    <footer>
+      <p>&copy; 2026 Cup Journal. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
